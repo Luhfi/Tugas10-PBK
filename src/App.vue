@@ -5,11 +5,11 @@
         {{ isCollapsed ? '☰' : 'StayNap' }}
       </div>
 
-      <RouterLink to="/">🏠{{ isCollapsed ? '' : 'Beranda' }}</RouterLink>
+      <RouterLink to="/">🏠 {{ isCollapsed ? '' : 'Beranda' }}</RouterLink>
       <RouterLink to="/Booking">📅 {{ isCollapsed ? '' : 'Pemesanan' }}</RouterLink>
       <RouterLink to="/History">📜 {{ isCollapsed ? '' : 'Riwayat' }}</RouterLink>
-      <RouterLink to="/Location">📍{{ isCollapsed ? '' : 'Lokasi' }}</RouterLink>
-      <RouterLink to="/Profile">👤{{ isCollapsed ? '' : 'Profile' }}</RouterLink>
+      <RouterLink to="/Location">📍 {{ isCollapsed ? '' : 'Lokasi' }}</RouterLink>
+      <RouterLink to="/Profile">👤 {{ isCollapsed ? '' : 'Profile' }}</RouterLink>
     </div>
 
     <div class="content">
